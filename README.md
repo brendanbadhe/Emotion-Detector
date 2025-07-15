@@ -32,6 +32,10 @@ cd Emotion-Detector
 pip install flask ibm-watson ibm-cloud-sdk-core pylint
 ```
 
+Configure your IBM Watson API credentials:
+
+Open `EmotionDetection/emotion_detection.py` and replace `API_KEY` and `INSTANCE` in the file with your own IBM Cloud credentials.
+
 ## Usage
 
 Start the Flask server:
